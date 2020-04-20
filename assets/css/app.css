@@ -54,7 +54,7 @@ nav a:hover {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  margin: 50px 50px;
+  margin: 30px 30px;
 }
 
 .card-news {
@@ -138,3 +138,181 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.titles {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: #474e51;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.titles h2 {
+  font-size: 30px;
+}
+
+.titles i {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.contact p {
+  color: #474e51;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 30px;
+  border-radius: 3%;
+  border: 1px solid brown ;
+  display: flex;
+  color: brown;
+  flex-direction: column;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+}
+
+label, input, button {
+  margin: 10px 0;
+  padding: 0 10px;
+  width: 560px;
+  height: 40px;
+  border-radius: 16px;
+  border: 0;
+  font-size: 16px;
+}
+
+textarea {
+  padding: 10px 10px;
+  margin: 10px 0;
+  width: 560px;
+  height: 200px;
+  font-size: 16px;
+  border-radius: 16px;
+  border: 0;
+}
+
+button {
+  background-color: brown;
+  border: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.about-description {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid brown;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.about {
+  color: #333;
+}
+
+.wrapper-about {
+  margin: 20px 0;
+  display: flex;
+  font-size: 16px;
+  color: #333;
+}
+
+.wrapper-about img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+.about span {
+  margin-bottom: 10px;
+  align-items: center;
+  font-size: 24px;
+}
+
+.texts-about {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.texts-about p {
+  margin-bottom: 10px;
+}
+
+.about a {
+  text-decoration: none;
+  color: brown;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+
+.about-description span {
+  margin: 10px 0;
+}
+
+.about-description ul {
+  display: flex;
+  list-style: none;
+}
+
+.about-description ul li {
+  margin: 0px 20px;
+  font-size: 30px;
+}
+
+.about-description ul li a:hover{
+  color: #474e51;
+}
+
+.more-description {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid brown;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.more-description span {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.more-description ol {
+  list-style: none;
+}
+
+.more-description ol li {
+  margin-bottom: 10px;
+}
+
+.more-description a {
+  text-decoration: none;
+  color: brown;
+}
+
+.more-description a:hover {
+  text-decoration: underline;
+}
+
+
